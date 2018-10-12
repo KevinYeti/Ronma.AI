@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ronma.Core.Dispatch;
+using System;
 
 namespace Ronma.Mind
 {
@@ -6,7 +7,10 @@ namespace Ronma.Mind
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World! I am Ronma!");
+            Dispatcher.Initialize();
+
+            Dispatcher.Wait();
         }
     }
 }

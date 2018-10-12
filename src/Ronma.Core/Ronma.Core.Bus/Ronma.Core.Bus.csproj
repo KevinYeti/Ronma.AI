@@ -2,11 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Enums\" />
+    <ProjectReference Include="..\Ronma.Core.Protocol\Ronma.Core.Protocol.csproj" />
   </ItemGroup>
 
 </Project>
