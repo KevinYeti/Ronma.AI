@@ -6,10 +6,13 @@ namespace Ronma.Core.Dispatch
     public static class Dispatcher
     {
         private static bool _started;
+        private static Thread _thdBus;
 
         public static void Initialize()
         {
-            
+            _thdBus = new Thread(_threadMain);
+            _thdBus.IsBackground = true;
+            _thdBus.Start();
         }
 
         public static void Kill()
@@ -19,12 +22,9 @@ namespace Ronma.Core.Dispatch
 
         public static void Wait()
         {
-            Thread thdBus = new Thread(_threadMain);
-            thdBus.IsBackground = true;
-            thdBus.Priority = ThreadPriority.Lowest;
-            thdBus.Start();
 
-            thdBus.Join();
+
+            _thdBus.Join();
         }
 
         private static void _threadMain()
