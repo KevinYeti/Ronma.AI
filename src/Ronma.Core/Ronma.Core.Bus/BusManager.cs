@@ -1,4 +1,5 @@
-﻿using Ronma.Core.Protocol.Interface.Service.Bus;
+﻿using Ronma.Core.Protocol.Enums.Service.Bus;
+using Ronma.Core.Protocol.Interface.Service.Bus;
 using Ronma.Core.Protocol.Structure.Bus;
 using System;
 using System.Collections.Generic;
@@ -20,9 +21,9 @@ namespace Ronma.Core.Bus
             Bus.Publish(packet);
         }
 
-        public static bool Subscribe(string service, Func<Packet, bool> process)
+        public static bool Subscribe(ServiceQueue queue, Func<Packet, bool> process)
         {
-            return Bus.Subscribe(service, process);
+            return Bus.Subscribe(queue, process);
         }
     }
 }
