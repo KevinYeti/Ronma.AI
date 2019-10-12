@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ronma.Mind", "Ronma.Mind\Ronma.Mind.csproj", "{75365791-5506-48E8-A672-5BBC93B43BE1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ronma.Core", "Ronma.Core", "{E4D529D5-3BC5-4245-A053-2FB0133AB4F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ronma.Core.Protocol", "Ronma.Core\Ronma.Core.Protocol\Ronma.Core.Protocol.csproj", "{06192CC4-A63C-443A-941B-75892D98C569}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ronma.Core.Protocol", "Ronma.Core\Ronma.Core.Protocol\Ronma.Core.Protocol.csproj", "{06192CC4-A63C-443A-941B-75892D98C569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ronma.Core.Bus", "Ronma.Core\Ronma.Core.Bus\Ronma.Core.Bus.csproj", "{F6DA8C5F-20B8-4F5C-ADA0-A8A9223057F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ronma.Core.Bus", "Ronma.Core\Ronma.Core.Bus\Ronma.Core.Bus.csproj", "{F6DA8C5F-20B8-4F5C-ADA0-A8A9223057F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{2753D1E8-08DF-47BB-AE36-F80FC3DA75FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ronma.Core.Dispatch", "Ronma.Core\Ronma.Core.Dispatch\Ronma.Core.Dispatch.csproj", "{CF267D19-E9E0-4166-B870-E0D97B8D09A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ronma.Core.Dispatch", "Ronma.Core\Ronma.Core.Dispatch\Ronma.Core.Dispatch.csproj", "{CF267D19-E9E0-4166-B870-E0D97B8D09A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Control", "Control", "{5755E3C7-8BC1-4C60-BB1E-57C0E79CC2C6}"
 EndProject
@@ -21,9 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input", "Input", "{96AF7F13
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{56D4FE14-FDC1-4178-8F9A-02A7546FE2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Ronma.Core\Ronma.Core.Services\Output\Console\Console.csproj", "{AC6B6D26-A747-40C2-83E3-41A3DB19F34E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Ronma.Core\Ronma.Core.Service\Output\Console\Console.csproj", "{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitBus", "Ronma.Core\Ronma.Core.Services\Control\RabbitBus\RabbitBus.csproj", "{D086C7FB-6DE9-4BB4-A75E-1333889B2454}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitBus", "Ronma.Core\Ronma.Core.Service\Control\RabbitBus\RabbitBus.csproj", "{C86F9F12-9BAF-4271-A690-E72F4487AC65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,14 +47,14 @@ Global
 		{CF267D19-E9E0-4166-B870-E0D97B8D09A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF267D19-E9E0-4166-B870-E0D97B8D09A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF267D19-E9E0-4166-B870-E0D97B8D09A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC6B6D26-A747-40C2-83E3-41A3DB19F34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC6B6D26-A747-40C2-83E3-41A3DB19F34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC6B6D26-A747-40C2-83E3-41A3DB19F34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC6B6D26-A747-40C2-83E3-41A3DB19F34E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D086C7FB-6DE9-4BB4-A75E-1333889B2454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D086C7FB-6DE9-4BB4-A75E-1333889B2454}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D086C7FB-6DE9-4BB4-A75E-1333889B2454}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D086C7FB-6DE9-4BB4-A75E-1333889B2454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86F9F12-9BAF-4271-A690-E72F4487AC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86F9F12-9BAF-4271-A690-E72F4487AC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86F9F12-9BAF-4271-A690-E72F4487AC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86F9F12-9BAF-4271-A690-E72F4487AC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,8 +67,8 @@ Global
 		{5755E3C7-8BC1-4C60-BB1E-57C0E79CC2C6} = {2753D1E8-08DF-47BB-AE36-F80FC3DA75FF}
 		{96AF7F13-CE9A-4DFF-A37F-5EE64144E5E2} = {2753D1E8-08DF-47BB-AE36-F80FC3DA75FF}
 		{56D4FE14-FDC1-4178-8F9A-02A7546FE2CE} = {2753D1E8-08DF-47BB-AE36-F80FC3DA75FF}
-		{AC6B6D26-A747-40C2-83E3-41A3DB19F34E} = {56D4FE14-FDC1-4178-8F9A-02A7546FE2CE}
-		{D086C7FB-6DE9-4BB4-A75E-1333889B2454} = {5755E3C7-8BC1-4C60-BB1E-57C0E79CC2C6}
+		{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C} = {56D4FE14-FDC1-4178-8F9A-02A7546FE2CE}
+		{C86F9F12-9BAF-4271-A690-E72F4487AC65} = {5755E3C7-8BC1-4C60-BB1E-57C0E79CC2C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E44F1044-7570-45FD-A477-CD7029CECDC8}
