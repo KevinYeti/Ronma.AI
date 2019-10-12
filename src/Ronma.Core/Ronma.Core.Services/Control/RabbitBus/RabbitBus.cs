@@ -1,5 +1,5 @@
 ﻿using System;
-namespace RabbitBus
+namespace Ronma.Core.Service.Control.RabbitBus
 {
     public class RabbitBus
     {
