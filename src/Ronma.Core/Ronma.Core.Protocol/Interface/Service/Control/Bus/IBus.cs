@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ronma.Core.Protocol.Interface.Service.Bus
+namespace Ronma.Core.Protocol.Interface.Service.Control.Bus
 {
     public interface IBus : IService
     {

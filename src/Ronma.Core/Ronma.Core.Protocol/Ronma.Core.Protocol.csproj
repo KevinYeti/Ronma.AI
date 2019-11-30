@@ -9,6 +9,10 @@
     <Folder Include="Enums\" />
     <Folder Include="Enums\Service\" />
     <Folder Include="Enums\Service\Bus\" />
+    <Folder Include="Interface\Service\Control\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Interface\Service\Control\Bus\IBus.cs" />
+  </ItemGroup>
 </Project>

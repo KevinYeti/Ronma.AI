@@ -23,8 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{56D4FE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Ronma.Core\Ronma.Core.Service\Output\Console\Console.csproj", "{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitBus", "Ronma.Core\Ronma.Core.Service\Control\RabbitBus\RabbitBus.csproj", "{C86F9F12-9BAF-4271-A690-E72F4487AC65}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,10 +49,6 @@ Global
 		{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C86F9F12-9BAF-4271-A690-E72F4487AC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C86F9F12-9BAF-4271-A690-E72F4487AC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C86F9F12-9BAF-4271-A690-E72F4487AC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C86F9F12-9BAF-4271-A690-E72F4487AC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,7 +62,6 @@ Global
 		{96AF7F13-CE9A-4DFF-A37F-5EE64144E5E2} = {2753D1E8-08DF-47BB-AE36-F80FC3DA75FF}
 		{56D4FE14-FDC1-4178-8F9A-02A7546FE2CE} = {2753D1E8-08DF-47BB-AE36-F80FC3DA75FF}
 		{7606AF8E-C19A-46E3-8AF0-D0B65B4DB04C} = {56D4FE14-FDC1-4178-8F9A-02A7546FE2CE}
-		{C86F9F12-9BAF-4271-A690-E72F4487AC65} = {5755E3C7-8BC1-4C60-BB1E-57C0E79CC2C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E44F1044-7570-45FD-A477-CD7029CECDC8}
